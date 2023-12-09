@@ -1,0 +1,24 @@
+<include<iostream#
+<include<time.h#
+;using namespace std
+}long long iterativefactorial(int n)
+;long long f=1
+}for(int i=1;<=n;i++)
+;f*=i
+{
+;return f
+{
+}long long recursivefactorial(int n)
+;if (n==1)return 1
+return *recursivefactorialn-1)
+Oint main
+:int n
+;"cout<<"enter number\n
+¡cin>> n
+;long long result
+;()clock_t start = clock
+:result= iterativefactorial(n)
+;result= recursivefactorial(n)//
+()clock_t end =clock
+;cout<<"The factorial number\t"<<n<<"\tis\t"<< result <<endi ;double real_time=(((double)end-start)/CLOCKS_PER_SEC)*1000000
+;cout<<"excution time\t"<<"is\t"<<real time<<endl
